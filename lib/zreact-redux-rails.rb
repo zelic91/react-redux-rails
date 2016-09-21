@@ -1,6 +1,6 @@
-require "react/redux/rails/version"
+require "zreact-redux-rails/version"
 
-module React
+module Zreact
   module Redux
     module Rails
       class Engine < ::Rails::Engine

@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'react/redux/rails/version'
+require 'zreact-redux-rails/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "zreact-redux-rails"
-  spec.version       = React::Redux::Rails::VERSION
+  spec.version       = Zreact::Redux::Rails::VERSION
   spec.authors       = ["Thuong Nguyen"]
   spec.email         = ["thuongnh.uit@gmail.com"]
 
@@ -27,6 +27,8 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
+  spec.add_dependency "railties", ">= 4.2"
+  spec.add_development_dependency "rails", ">= 4.2"
   spec.add_development_dependency "bundler", "~> 1.12"
   spec.add_development_dependency "rake", "~> 10.0"
 end
