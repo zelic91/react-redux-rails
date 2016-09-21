@@ -34,7 +34,7 @@ Or if you are using CoffeeScript, it's your `application.js.coffee`:
 
 ## Versioning
 
-`zreact-redux-rails` has the same version number as `redux` (we don't care about react-redux version at all).
+First 3 number of `zreact-redux-rails` version is the version of `redux`.
 
 ## Contributing
 
