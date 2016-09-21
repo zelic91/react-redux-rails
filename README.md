@@ -1,13 +1,13 @@
-# react-redux-rails
+# zreact-redux-rails
 
-I searched around the Internet to see if there is any Redux gem for my simple React Rails app using `react-rails` gem, and I found nothing (I know, I know that you have better options). So yeah, here it is.
+I firstly created this gem for my own usage. However, when I pushed this gem, another gem with the same name, but seemed quite old appeared. I decided to make another gem for up-to-date components.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'react-redux-rails'
+gem 'zreact-redux-rails'
 ```
 
 And then execute:
@@ -23,14 +23,12 @@ Or install it yourself as:
 Simply add below lines to your `application.js` on your behalf:
 
 ```ruby
-//= require redux
 //= require react-redux
 ```
 
 Or if you are using CoffeeScript, it's your `application.js.coffee`:
 
 ```ruby
-#= require redux
 #= require react-redux
 ```
 

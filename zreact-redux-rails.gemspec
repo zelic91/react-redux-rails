@@ -4,14 +4,14 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'react/redux/rails/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "react-redux-rails"
+  spec.name          = "zreact-redux-rails"
   spec.version       = React::Redux::Rails::VERSION
   spec.authors       = ["Thuong Nguyen"]
   spec.email         = ["thuongnh.uit@gmail.com"]
 
   spec.summary       = %q{Bring Redux to your React Rails app.}
   spec.description   = %q{I'm a lazy guy, so yeah, I create this gem to simplify the installation of redux and react-redux}
-  spec.homepage      = "https://github.com/zelic91/react-redux-rails"
+  spec.homepage      = "https://github.com/zelic91/zreact-redux-rails"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
