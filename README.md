@@ -23,12 +23,14 @@ Or install it yourself as:
 Simply add below lines to your `application.js` on your behalf:
 
 ```ruby
+//= require redux
 //= require react-redux
 ```
 
 Or if you are using CoffeeScript, it's your `application.js.coffee`:
 
 ```ruby
+#= require redux
 #= require react-redux
 ```
 
