@@ -25,6 +25,10 @@ Simply add below lines to your `application.js` on your behalf:
 ```ruby
 //= require redux
 //= require react-redux
+
+// Optional: For those who want to use redux-thunk and fetch
+//= require redux-thunk
+//= require fetch
 ```
 
 Or if you are using CoffeeScript, it's your `application.js.coffee`:
@@ -32,6 +36,10 @@ Or if you are using CoffeeScript, it's your `application.js.coffee`:
 ```ruby
 #= require redux
 #= require react-redux
+
+# Optional: For those who want to use redux-thunk and fetch
+#= require redux-thunk
+#= require fetch
 ```
 
 ## Versioning
